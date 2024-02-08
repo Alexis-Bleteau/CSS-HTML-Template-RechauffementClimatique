@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site web inspiré de youtube</title>
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/0c87a70838.js"></script>
+    
+    <!--FONT CSS -->
+    <link 
+    href="//db.onlinewebfonts.com/c/6aa06a9a432b8417171f60d8351aa310?family=Torus+Notched" 
+    rel="stylesheet" 
+    type="text/css"/>
+    
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+    <div class="onglet-side">
+        <a href="#accueil" class="active"></a>
+        <a href="#misison"></a>
+        <a href="#propos"></a>
+        <a href="#don"></a>
+    </div>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="/images/img/logo.png" alt="">
+        </div>
+        <div class="onglet">
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#mission">Notre mission</a></li>
+                <li><a href="#propos">A propos</a></li>
+                <li><a href="#don">Faire un don</a></li>
+            </ul>
+        </div>
+        <div class="logo"></div>
+    </div>
+</header>
+
+
+<section class="sec1" id="accueil">
+    <div class="container">
+        <h1>Réchauffement <br>climatique</br> </h1>
+        <a href="#">
+        <button>
+            En savoir plus
+            <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+        </button>
+        </a>
+        <div class="bg-responsive">
+            <img src="/images/img/11.png" alt="">
+        </div>
+    </div>
+</div>
+    
+<div class="transition">
+    <img src="/images/img/10.pnG" alt="">
+</section>
+
+<section class="sec2" id="mission">
+    <div class="container">
+        <div class="title">
+            <h1>Notre mission...</h1>
+        </div>
+
+            <div class="content content-top">
+            <div class="left">
+                <div class="titre">
+                    <div class="point"></div>
+                    <h2>"NOUS" SOMMES LA SOLUTION</h2>
+                 </div>
+                <div class="separateur"></div>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    olabore et dolore magna aliquzlooe et alors oui.
+                 </p>      
+            </div>
+        
+            <div class="right">
+                <img src="/images/img/4.png" alt="">
+            </div>
+        </div>
+
+        <div class="content content-bottom">
+            <div class="left">
+                <img src="/images/img/6.png" alt="">
+            </div>
+            <div class="right">
+                <div class="titre">
+                    <div class="point"></div>
+                    <h2>PRESERVONS LES FONDS</h2>
+                 </div>
+                <div class="separateur"></div>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    olabore et dolore magna aliquzlooe et alors oui.
+                 </p>      
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <section class="sec3" id="propos">
+            <div class="container">
+                <div class="left">
+                    <h1>Des espèces en <br> en voie disparition</br></h1>
+                        <div class="separateur"></div>
+                        <p> Ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        It has survived not only five centuries, but also the leap into electronic typesetting, 
+                        remaining essentially unchanged.
+                        </p>
+                    <a href="#">
+                        <button>
+                        En savoir plus
+                        <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+                        </button>
+                    </a>
+                </div>
+
+                <div class="right">
+                    <img src="/images/img/2.png" alt="">
+                </div>
+            </div>
+
+    </section>
+
+
+
+    <section class="sec4" id="don">
+
+    <div class="content">
+
+    <div class="left">
+        <img src="/images/img/5.png" alt="">
+    </div>
+
+    <div class="mid">
+        <h1>Pour chaque don</h1>
+        <h2>1M² de banquise sauvée</h2>
+        <p>Ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            It has survived not only five centuries, but also the leap into electronic typesetting, 
+            remaining essentially unchanged.</p>
+            <button>
+            Faire un don
+            <i class="fab fa-paypal" aria-hidden="true"></i>
+            </button>
+        
+    </div>
+    <div class="right">
+        <img src="/images/img/8.png" alt="">
+    </div>
+</div>
+
+    </section4>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+    <script type="text/javascript">
+        $(document).on("click", ".onglet-side a", function () {
+            $(this).addClass("active").siblings().removeClass("active");
+        })
+    </script>
+
+</body>
+</html>
